@@ -21,16 +21,5 @@ The `WaterIntakeAgent` evaluates each intake and provides insights such as:
 - Whether the intake meets hydration recommendations
 - Suggestions to drink more water based on intake patterns
 
----
 
-## 🧪 API Endpoints
 
-### 1. Log Water Intake
-
-- **POST** `/logIntake`
-- **Body** (JSON):
-  ```json
-  {
-    "user_id": "user123",
-    "intake_ml": 250
-  }
